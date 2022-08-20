@@ -5,7 +5,7 @@
 
 body {
   font-family: sans-serif;
-  padding: 90px 20px 0;
+  padding: 100px 20px 0;
 }
 
 .header {
@@ -126,8 +126,7 @@ body {
     left: 0;
   }
 
-  .nav-toggle:focus:not(:focus-visible) 
-  {
+  .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   }
 }
@@ -147,57 +146,6 @@ max-height: 50%;
 
 }
 
-h1{
-     margin-top:5%;
-     color: #17202A;
-     text-align: center;
-}
-
-#tabla 
-{
-   width: 80%;   
-}
-table 
-{
-    margin: 0 auto;
-    border: 1px solid #000;
-}
-
-
-th
-{
-    background: #0769e9;
-    color:white;
-}
- td {
-   width: 15%;
-   text-align: center;
-   border: 0.5px solid #000;
-   padding: 0.3em;
- }
-
-#nuevocliente 
-{
-    text-align:center;
-    margin-top:2%;
-    margin-bottom: 3%;
-}
-#nuevofabricante
-{
-    text-align:center;
-    margin-top:2%;
-    margin-bottom: 3%;
-}
-
-#nuevoproducto
-{
-    text-align:center;
-    margin-top:2%;
-    margin-bottom: 3%;
-}
-
-*{box-sizing:border-box;}
-
 #div1
 {
     position: relative;
@@ -209,9 +157,7 @@ th
 {
     width: 40%;
 }
-
-
-form {
+#login{
    margin: auto auto;
    width: 300px;   /* Sin ancho no podemos centrar el formulario */
    background-color: white; /* Color blanco para el formulario */
@@ -219,10 +165,11 @@ form {
    border-radius: 10px; /* Redondeamos los bordes del form */
    position: relative;
 }
+*{box-sizing:border-box;}
 
-
-form input
+#input
 {
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
 }
+

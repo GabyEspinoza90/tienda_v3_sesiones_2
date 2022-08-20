@@ -21,8 +21,9 @@
                     String codigo_fabricante = request.getAttribute("codigo_fabricante").toString();
                     fabricante         = dao.buscar(codigo_fabricante);
               %>
-              <header class="header">
-              </header>
+        <div>
+            <%@include file="header.jsp"%>   
+        </div>   
         <div>
             <h1>Editar_Fabricante</h1>
             <form action="SFabricante" method="POST">

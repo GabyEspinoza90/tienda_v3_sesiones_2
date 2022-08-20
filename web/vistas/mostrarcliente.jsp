@@ -14,7 +14,10 @@
         <link rel="stylesheet" href="vistas/estilos.css">
         <title>Cliente</title>
     </head>
-    <body>   
+    <body>  
+        <div>
+            <%@include file="header.jsp"%>   
+        </div>   
         <form id="frmCliente" action="SCliente" method="POST">
         <h1>Listado_Clientes</h1>
         <div id="nuevocliente">

@@ -13,7 +13,10 @@
         <title>Nuevo</title>
     </head>    
     <body>
-    <div>
+        <div>
+            <%@include file="header.jsp"%>   
+        </div>           
+    <div>        
            <h1>Nuevo_Cliente</h1>
            <form action="SCliente" method="POST">
             <table>

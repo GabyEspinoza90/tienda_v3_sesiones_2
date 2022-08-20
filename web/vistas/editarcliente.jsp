@@ -21,8 +21,9 @@
                     String id_cliente = request.getAttribute("id_cliente").toString();
                     cliente           = dao.buscar(id_cliente);
               %>
-        <header class="header">
-        </header>        
+        <div>
+            <%@include file="header.jsp"%>   
+        </div>      
         <div>
             <h1>Editar_Cliente</h1>
             <form action="SCliente" method="POST">

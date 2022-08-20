@@ -16,6 +16,9 @@
         <title>Producto</title>
     </head>
     <body>
+        <div>
+            <%@include file="header.jsp"%>   
+        </div>           
         <form id="frmProducto" action="SProducto" method="POST">
         <h1>Listado_Productos</h1>
         <div id="nuevoproducto">

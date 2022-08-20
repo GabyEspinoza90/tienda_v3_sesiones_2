@@ -21,8 +21,9 @@
                     String codigo_producto = request.getAttribute("codigo_producto").toString();
                     producto          = dao.buscar(codigo_producto);
               %>
-              <header class="header">
-              </header>      
+        <div>
+            <%@include file="header.jsp"%>   
+        </div>       
         <div>
             <h1>Editar_producto</h1>
             <form action="SProducto" method="POST">

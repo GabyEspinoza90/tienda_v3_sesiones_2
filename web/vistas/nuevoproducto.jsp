@@ -12,6 +12,9 @@
         <title>Nuevo</title>
     </head>
     <body>
+        <div>
+            <%@include file="header.jsp"%>   
+        </div>           
     <div>
            <h1>Registar_NuevoProducto</h1>
            <form action="SProducto" method="POST">
